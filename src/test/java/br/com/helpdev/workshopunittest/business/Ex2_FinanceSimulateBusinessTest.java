@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+/**
+ * Using Mocks and how to solve mock static methods
+ */
 @SpringBootTest
 class Ex2_FinanceSimulateBusinessTest {
 

@@ -4,6 +4,9 @@ import br.com.helpdev.workshopunittest.business.model.SimulationResult;
 import br.com.helpdev.workshopunittest.controller.dto.FinanceSimulateRequestDTO;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Add asserts to the test | Normal flow & Failed flow
+ */
 class Ex1_FinanceSimulateMapperTest {
 
   // - Where are the asserts?

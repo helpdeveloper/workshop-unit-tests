@@ -14,7 +14,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.util.ReflectionTestUtils;
 
-// - Why do you force the Spring Runner?. This becomes an integrated test
+/**
+ * Removing Spring / SpringRunner dependency
+ * Why do you force the Spring Runner?. This becomes an integrated test
+ */
 @SpringBootTest
 class Ex5_FinanceSimulateBusinessTest {
 

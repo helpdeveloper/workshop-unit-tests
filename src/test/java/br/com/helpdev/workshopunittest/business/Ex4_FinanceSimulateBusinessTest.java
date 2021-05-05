@@ -2,6 +2,9 @@ package br.com.helpdev.workshopunittest.business;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * Testing private methods.
+ */
 class Ex4_FinanceSimulateBusinessTest {
 
   @Test

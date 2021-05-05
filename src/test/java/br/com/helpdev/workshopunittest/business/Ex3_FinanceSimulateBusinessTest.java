@@ -14,6 +14,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.util.ReflectionTestUtils;
 
+/**
+ * Refactoring tests to use the AAA standard
+ */
 @SpringBootTest
 class Ex3_FinanceSimulateBusinessTest {
 
