@@ -80,8 +80,6 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <exportLineCoverage>true</exportLineCoverage>
-                    <outputFormats><value>XML</value></outputFormats>
                     <targetClasses>
                         <param>br.com.helpdev.workshopunittest*</param>
                     </targetClasses>
