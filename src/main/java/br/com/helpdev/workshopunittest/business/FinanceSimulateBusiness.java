@@ -45,8 +45,8 @@ public class FinanceSimulateBusiness {
   }
 
   private SimulationResult calculateParcel(final SimulationData simulationData) {
-    var parcelValue = simulationData.getFinancialValue() / simulationData.getParcels();
-    parcelValue *= 0.1;
+    long parcelValue = simulationData.getFinancialValue() / simulationData.getParcels();
+    parcelValue += parcelValue * 0.1f;
     return new SimulationResult(parcelValue);
   }
 

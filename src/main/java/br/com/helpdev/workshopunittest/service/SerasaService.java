@@ -3,6 +3,7 @@ package br.com.helpdev.workshopunittest.service;
 import br.com.helpdev.workshopunittest.service.objects.SerasaDebits;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -14,7 +15,7 @@ public class SerasaService {
     try {
       Thread.sleep(1_000);
 
-      if (document.startsWith("111")) {
+      if (new Random().nextInt(2) == 1) {
         return Collections.singletonList(new SerasaDebits(1231L));
       }
 
