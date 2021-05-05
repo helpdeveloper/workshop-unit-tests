@@ -4,7 +4,6 @@ import br.com.helpdev.workshopunittest.business.model.SimulationData;
 import br.com.helpdev.workshopunittest.service.SerasaService;
 import br.com.helpdev.workshopunittest.service.objects.SerasaDebits;
 import java.util.Collections;
-import org.hamcrest.CoreMatchers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -17,7 +16,7 @@ import org.springframework.test.util.ReflectionTestUtils;
 
 // - Why do you force the Spring Runner?. This becomes an integrated test
 @SpringBootTest
-class FinanceSimulateBusinessTest {
+class Ex5_FinanceSimulateBusinessTest {
 
   @MockBean
   private SerasaService serasaService;

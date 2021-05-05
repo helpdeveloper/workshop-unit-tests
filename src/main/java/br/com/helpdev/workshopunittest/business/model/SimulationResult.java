@@ -2,13 +2,13 @@ package br.com.helpdev.workshopunittest.business.model;
 
 public class SimulationResult {
 
-  private final Long parcelValue;
+  private final float parcelValue;
 
-  public SimulationResult(final Long parcelValue) {
+  public SimulationResult(final float parcelValue) {
     this.parcelValue = parcelValue;
   }
 
-  public Long getParcelValue() {
+  public float getParcelValue() {
     return parcelValue;
   }
 }

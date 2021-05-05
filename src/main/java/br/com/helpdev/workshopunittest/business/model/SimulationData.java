@@ -16,19 +16,18 @@ public class SimulationData {
   }
 
   public String getDocument() {
-    return null;
+    return document;
   }
 
   public Long getIncome() {
-    return null;
+    return income;
   }
 
   public Long getFinancialValue() {
-    return null;
+    return financialValue;
   }
 
   public Long getParcels() {
-    return null;
+    return parcels;
   }
-
 }
