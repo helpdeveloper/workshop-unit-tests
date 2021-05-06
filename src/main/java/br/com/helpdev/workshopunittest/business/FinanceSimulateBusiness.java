@@ -39,6 +39,8 @@ public class FinanceSimulateBusiness {
         throw new IllegalArgumentException("You can't finance this value for company");
       }
 
+    } else {
+      throw new IllegalArgumentException("The document is not valid");
     }
 
     return calculateParcelValue(simulationData);
